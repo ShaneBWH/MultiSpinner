@@ -37,8 +37,8 @@ import android.widget.TextView;
 public class MultiSpinner extends TextView implements OnMultiChoiceClickListener {
 
     public enum AllSelectedDisplayMode {
-        UseAllText,
-        DisplayAllItems
+        DisplayAllItems,
+        UseAllText
     }
 
     private SpinnerAdapter mAdapter;
